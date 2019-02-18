@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="CITE-seq-Count",
+    name="munfredcount",
     version="1.4.1",
     author="Roelli Patrick",
     author_email="patrick.roelli@gmail.com",
@@ -13,7 +13,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     entry_points={
           'console_scripts': [
-              'CITE-seq-Count = cite_seq_count.__main__:main'
+              'munfredcount = cite_seq_count.__main__:main'
           ]
       },
     classifiers=(
